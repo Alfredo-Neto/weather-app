@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+main {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(300deg, #ced1d6, #bfc0c0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  color: #fff;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  font-size: large;
+}
+
+button {
+  position: absolute;
+  margin-top: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

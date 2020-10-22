@@ -52,6 +52,17 @@ function printWeatherOnScreen(searchTerm) {
   main.appendChild(weather);
 }
 
+// Persist data with LocalStorage
+if (localStorage.search) {
+  search.value = localStorage.search;
+}
+
+function setData() {
+  localStorage.setItem("search", search.value);
+}
+
+document.onchange = setData;
+
 function dayOrNight(icon) {
   iconArray = icon.split("");
   if (iconArray[2] === "d") {

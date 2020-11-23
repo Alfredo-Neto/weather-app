@@ -18,7 +18,7 @@ A weather application to get the temperature, weather condition and whether it i
 - [bootstrap](https://getbootstrap.com/)
 - [Fetch API](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch)
 
-## Clone or download this repo and execute the index.hmtl file with your favorite browser
+## Clone or download this repo and execute the index.html file with your favorite browser
 
 LocalStorage may not work with Internet Explorer.
 

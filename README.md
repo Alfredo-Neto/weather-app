@@ -24,4 +24,6 @@ A weather application to get the temperature, weather condition and whether it i
 
 LocalStorage may not work with Internet Explorer.
 
+- Idea caught from https://github.com/florinpop17/app-ideas
+
 

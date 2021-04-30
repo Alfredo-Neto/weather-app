@@ -67,11 +67,11 @@ function dayOrNight(icon) {
   iconArray = icon.split("");
   if (iconArray[2] === "d") {
     body.backgroundImage =
-      "url('/images/olly-allars-SIPQ54YLvjk-unsplash.jpg')";
+      "url('images/olly-allars-SIPQ54YLvjk-unsplash.jpg')";
     main.style.color = "#000";
   } else if (iconArray[2] === "n") {
     body.backgroundImage =
-      "url('/images/goncalo-verdasca-tkJztsZAjn8-unsplash.jpg')";
+      "url('images/goncalo-verdasca-tkJztsZAjn8-unsplash.jpg')";
     main.style.color = "#fff";
   }
 }
